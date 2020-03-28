@@ -36,4 +36,4 @@ run either of those games like this:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://raw.githubusercontent.com/AlexanderJDupree/lc3-virtual-machine/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/AlexanderJDupree/LC3-VM/blob/master/LICENSE) file for details
