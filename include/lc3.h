@@ -1,4 +1,5 @@
 // File: lc3.h
+// Author: Alexander DuPree
 // Definitions and enums for the Little Computer 3 Virtual Machine
 
 #ifndef LC3_VM

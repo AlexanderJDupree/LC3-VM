@@ -1,4 +1,5 @@
 // File: console.h
+// Author: Alexander DuPree
 
 #ifndef LC3_CONSOLE
 #define LC3_CONSOLE

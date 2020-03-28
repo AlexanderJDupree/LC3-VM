@@ -1,4 +1,5 @@
 // File: image.h
+// Author: Alexander DuPree
 
 #ifndef LC3_IMAGE
 #define LC3_IMAGE

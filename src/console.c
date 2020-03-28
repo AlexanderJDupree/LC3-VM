@@ -1,4 +1,5 @@
 // File: console.c
+// Author: Alexander DuPree
 
 #include <stdio.h>
 #include <stdlib.h>

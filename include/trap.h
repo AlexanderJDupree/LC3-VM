@@ -1,4 +1,5 @@
 // File: trap.h
+// Author: Alexander DuPree
 // Defines trap functions for the lc3 vm
 
 #ifndef LC3_TRAP

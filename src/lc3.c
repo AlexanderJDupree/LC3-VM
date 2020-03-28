@@ -1,4 +1,7 @@
+// 
 // LC-3 Virtual Machine Emulator
+// Author: Alexander DuPree
+//
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,5 @@
 // File: image.c
+// Author: Alexander DuPree
 
 #include <stdio.h>
 #include "image.h"
