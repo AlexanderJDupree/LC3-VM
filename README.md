@@ -10,7 +10,7 @@ codes are implemented except *RTI* and *RES*.
 Download the repo:
 
 ```bash
-git clone <TODO addd address>
+git clone https://github.com/AlexanderJDupree/LC3-VM.git
 ```
 
 Build and Install
