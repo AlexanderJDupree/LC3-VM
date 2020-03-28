@@ -3,6 +3,7 @@
 
 src/CMakeFiles/lc3.dir/console.c.o: ../src/console.c
 
+src/CMakeFiles/lc3.dir/image.c.o: ../include/image.h
 src/CMakeFiles/lc3.dir/image.c.o: ../src/image.c
 
 src/CMakeFiles/lc3.dir/lc3.c.o: ../include/console.h

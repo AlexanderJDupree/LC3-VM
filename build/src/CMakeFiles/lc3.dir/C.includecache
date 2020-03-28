@@ -6,33 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/console.h
-stdint.h
--
-
 ../include/image.h
 stdint.h
 -
 
-../include/lc3.h
-stdint.h
--
-
-../include/trap.h
-stdint.h
--
-
-/home/adupree/lc3/src/lc3.c
+/home/adupree/lc3/src/image.c
 stdio.h
 -
-stdlib.h
--
-lc3.h
-/home/adupree/lc3/src/lc3.h
-trap.h
-/home/adupree/lc3/src/trap.h
 image.h
 /home/adupree/lc3/src/image.h
-console.h
-/home/adupree/lc3/src/console.h
 

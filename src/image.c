@@ -3,6 +3,15 @@
 #include <stdio.h>
 #include "image.h"
 
+#define BIG_ENDIAN 0
+#define LITTLE_ENDIAN 1
+ 
+int byte_order() {
+        short int word = 0x0001;
+        char *b = (char *)&word;
+        return (b[0] ? LITTLE_ENDIAN : BIG_ENDIAN);
+}
+
 static uint16_t swap_endian(uint16_t x)
 {
     return (x << 8) | (x >> 8);
@@ -13,8 +22,11 @@ static void read_image_file(FILE* file, uint16_t* memory)
     // Origin specifies where to place the image in memory
     uint16_t origin;
     fread(&origin, sizeof(origin), 1, file);
-    // lc3 is big-endian, we're running a little endian computer
-    origin = swap_endian(origin); 
+
+    if(byte_order() == LITTLE_ENDIAN)
+    {
+        origin = swap_endian(origin); 
+    }
 
     // Can only read 16bit chunks until memory[UINT16_MAX] 
     // and we start at memory[origin]
@@ -24,10 +36,13 @@ static void read_image_file(FILE* file, uint16_t* memory)
     size_t read = fread(program, sizeof(uint16_t), max_read, file);
 
 // TODO Check for endianness first
-    for(; read-- > 0; ++program)
+    if(byte_order() == LITTLE_ENDIAN)
     {
-        // Every 16bit instruction read needs to be reversed
-        *program = swap_endian(*program);
+        for(; read-- > 0; ++program)
+        {
+            // Every 16bit instruction read needs to be reversed
+            *program = swap_endian(*program);
+        }
     }
 }
 
