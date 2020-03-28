@@ -1,4 +1,5 @@
 // File: trap.h
+// Defines trap functions for the lc3 vm
 
 #ifndef LC3_TRAP
 #define LC3_TRAP
