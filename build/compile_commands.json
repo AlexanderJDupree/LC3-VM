@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/adupree/lc3/build/src",
+  "command": "/bin/gcc-9  -I/home/adupree/lc3/include  -g   -o CMakeFiles/lc3.dir/lc3.c.o   -c /home/adupree/lc3/src/lc3.c",
+  "file": "/home/adupree/lc3/src/lc3.c"
+},
+{
+  "directory": "/home/adupree/lc3/build/src",
+  "command": "/bin/gcc-9  -I/home/adupree/lc3/include  -g   -o CMakeFiles/lc3.dir/trap.c.o   -c /home/adupree/lc3/src/trap.c",
+  "file": "/home/adupree/lc3/src/trap.c"
+},
+{
+  "directory": "/home/adupree/lc3/build/src",
+  "command": "/bin/gcc-9  -I/home/adupree/lc3/include  -g   -o CMakeFiles/lc3.dir/image.c.o   -c /home/adupree/lc3/src/image.c",
+  "file": "/home/adupree/lc3/src/image.c"
+},
+{
+  "directory": "/home/adupree/lc3/build/src",
+  "command": "/bin/gcc-9  -I/home/adupree/lc3/include  -g   -o CMakeFiles/lc3.dir/console.c.o   -c /home/adupree/lc3/src/console.c",
+  "file": "/home/adupree/lc3/src/console.c"
+}
+]

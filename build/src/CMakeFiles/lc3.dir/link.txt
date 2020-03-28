@@ -1,0 +1,1 @@
+/bin/gcc-9 -g  -rdynamic CMakeFiles/lc3.dir/lc3.c.o CMakeFiles/lc3.dir/trap.c.o CMakeFiles/lc3.dir/image.c.o CMakeFiles/lc3.dir/console.c.o  -o lc3 
