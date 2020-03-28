@@ -35,7 +35,6 @@ static void read_image_file(FILE* file, uint16_t* memory)
 
     size_t read = fread(program, sizeof(uint16_t), max_read, file);
 
-// TODO Check for endianness first
     if(byte_order() == LITTLE_ENDIAN)
     {
         for(; read-- > 0; ++program)
